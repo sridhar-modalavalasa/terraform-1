@@ -54,3 +54,13 @@ variable "dbsg" {
     type          =    string
     description   =    "Name of dbsg"  
 }
+variable "access_key" {
+    default = "AKIAX7IEASGWG54WB5AD"
+    description = "Access key to AWS console"
+
+}
+variable "secret_key" {
+    default = "UYpR570RSGVunsFeQ0tkoJ8H88/Kk1Hqe2xoSmwG"
+    description = "Secret key to AWS console"
+
+}
